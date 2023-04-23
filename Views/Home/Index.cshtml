@@ -1,0 +1,28 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+@*<h3>Add User:</h3>
+<form asp-controller="Home" asp-action="CreateUser">
+	<label>Email:</label><br />
+	<input type="text" name="e" /><br />
+	<label>Password:</label><br />
+	<input type="password" name="p" /><br />
+	<input type="submit" value="Create User" /><br />
+</form>*@
+<h4>You CAN`T access BAGRAINS unauthorized</h4>
+<br>
+<h4>You can access CREATE/DELETE/EDIT actions ONLY authorized with ADMIN ROLE</h4>
+<br>
+<h4>You can access SWAGGER ONLY authorized with ADMIN ROLE</h4>
+<br>
+<h2>Click here to get ADMIN ROLE:</h2>
+<br>
+<h5>(You must be authorized)</h5>
+<br>
+<a asp-controller="Home" asp-action="GiveRole" type="submit" value="GetAdminRole">GetRole</a>
+<br>
+@*<form asp-controller="Home" asp-action="CheckRole">
+	<input type="text" name="role" /><br />
+	<input type="submit" value="Check" /><br />
+</form>*@

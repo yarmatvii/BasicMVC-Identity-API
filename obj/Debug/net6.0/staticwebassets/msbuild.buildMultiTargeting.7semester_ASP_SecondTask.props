@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\7semester_ASP_SecondTask.props" />
+</Project>
